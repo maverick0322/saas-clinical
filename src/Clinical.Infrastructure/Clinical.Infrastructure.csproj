@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clinical.Application\Clinical.Application.csproj" />
+    <ProjectReference Include="..\Clinical.Domain\Clinical.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

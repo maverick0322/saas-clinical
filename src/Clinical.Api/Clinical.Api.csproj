@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Clinical.IntegrationTests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clinical.Application\Clinical.Application.csproj" />
+    <ProjectReference Include="..\Clinical.Infrastructure\Clinical.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
